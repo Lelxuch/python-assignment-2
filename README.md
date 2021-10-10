@@ -2,7 +2,7 @@
 
 Title: Assignment 2
 
-This scrapper gets data from >coinmarketcap.com
+This scrapper gets data from > coinmarketcap.com
 
 ## Installation
 
