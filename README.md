@@ -22,11 +22,30 @@ python3 test.py
 
 ## Examples
 
+The user enters 1 and name of cryptocurrency. User can enter splitted words. My package connects them into one with a dash to get information from coinmarketcap.com
+
+```
+Menu
+1. Find cryptocurrency  by name
+2. Get trending cryptocurrencies
+3. Get top gainers and losers
+4. Get recently added
+5. Exit
+>>> Select option: 1
+>>> Crypto name: Binance Coin
+```
+
+Output:
+
+```
+Information about cryptocurrency
+```
+
 The user enters 4 and gets the result:
 
 ```
 Menu
-1. Find cryptocurrency by name
+1. Find cryptocurrency  by name
 2. Get trending cryptocurrencies
 3. Get top gainers and losers
 4. Get recently added
