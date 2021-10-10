@@ -21,7 +21,7 @@ python3 test.py
 ```
 
 ## Examples
-
+### 1st example
 The user enters 1 and name of cryptocurrency. User can enter splitted words. My package connects them into one with a dash to get information from coinmarketcap.com
 
 ```
@@ -40,6 +40,7 @@ Output:
 ```
 Information about cryptocurrency
 ```
+### 2nd example
 
 The user enters 4 and gets the result:
 
