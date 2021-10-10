@@ -6,7 +6,7 @@ scrapper = Scrapper()
 
 while(True):
   print("Menu\n" +
-  "1. Find cryptocurrency  by name\n" +
+  "1. Find cryptocurrency by name\n" +
   "2. Get trending cryptocurrencies\n" +
   "3. Get top gainers and losers\n" +
   "4. Get recently added\n" +

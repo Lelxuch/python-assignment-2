@@ -4,11 +4,12 @@ from bs4 import BeautifulSoup
 class Scrapper():
   def refactoreCoinName(self, coin): # For example "Binance Coin" -> "binance-coin"
     result = str(coin.lower())
-    splittedCoin = coin.split()
+    splittedCoin = result.split()
     if len(splittedCoin) > 1:
       result = str(splittedCoin[0])
       for i in range(1, len(splittedCoin)):
         result += "-" + splittedCoin[i]
+    print(result)
     return result
 
   def getCryptoData(self, coin):
