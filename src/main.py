@@ -9,7 +9,6 @@ class Scrapper():
       result = str(splittedCoin[0])
       for i in range(1, len(splittedCoin)):
         result += "-" + splittedCoin[i]
-    print(result)
     return result
 
   def getCryptoData(self, coin):
