@@ -6,10 +6,11 @@ scrapper = Scrapper()
 
 while(True):
   print("Menu\n" +
-  "1. Find by name\n" +
+  "1. Find cryptocurrency  by name\n" +
   "2. Get trending cryptocurrencies\n" +
-  "3. Get top gainers and losers\n"
-  "4. Exit")
+  "3. Get top gainers and losers\n" +
+  "4. Get recently added\n" +
+  "5. Exit")
   userSelect = int(input("Select option: "))
   if(userSelect == 1):
     cryptoName = input("Crypto name: ")
@@ -19,8 +20,14 @@ while(True):
     for i in scrapper.getTrending():
       print(i)
   if(userSelect == 3):
-    for i in scrapper.getGainersLosers():
-      print(j)
-  if(userSelect == 4 or userSelect > 4):
+    gainersLosers = scrapper.getGainersLosers()
+    for i in range(0, len(gainersLosers)):
+      print(gainersLosers[i])
+      if ((i + 1) % 5 == 0):
+        print("\n")
+  if(userSelect == 4):
+    for i in scrapper.getNew():
+      print(i)
+  if(userSelect == 5 or userSelect > 5):
     print("Exit")
     break
