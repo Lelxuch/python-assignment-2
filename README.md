@@ -32,10 +32,11 @@ Menu
 4. Get recently added
 5. Exit
 >>> Select option: 4
-
 ```
+
 Output:
 
+```
 1
 PokerFI.Finance1POKERFI
 $0.002383
@@ -47,3 +48,4 @@ Binance Coin
 2 hours ago
 
 ...
+```
