@@ -22,11 +22,11 @@ python3 test.py
 
 ## Examples
 
-The user enters 5 and gets the result:
+The user enters 4 and gets the result:
 
 ```
 Menu
-1. Find by name
+1. Find cryptocurrency by name
 2. Get trending cryptocurrencies
 3. Get top gainers and losers
 4. Get recently added
@@ -46,6 +46,16 @@ $23,831,974
 $2,720,404
 Binance Coin
 2 hours ago
+
+2
+SUPERLAUNCH2SLA
+$0.1679
+10.16%
+0.00%
+$1,679,065
+$462,269
+Binance Coin
+5 hours ago
 
 ...
 ```
